@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    cursor: pointer;
+}
+
+h2 {
+    margin: 5px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+.page {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: 100vh;
+    font-family: Georgia, serif;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.hidden-without-reserved-place{
+    display: none;
+}
+
+/*Header */
+
+.header {
+    padding: 100 px;
+    background-color: rgb(13, 159, 196);
+    text-align: center;
+    max-height: 90px;
+    min-height: 90px;
+    border: 1px solid;
+    font-size: 17px;
+    user-select: none;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header-text {
+    margin: 25px;
+    flex-direction: column;
+    order:2;
+    width: 100%;
+    text-align: left;
+}
+
+/*Header*/
+
+/*Side Menu*/
+
+.container {
+    display: flex;
+    height: 100%;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.side-menu {
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+    justify-content: flex-start;
+    background-color: #2d353c;
+    height: 100%;
+    border-right: solid 1px;
+    color: #f8f8f8;
+    border-right-color: black;
+    font-size: 25px;  
+    user-select: none;
+}
+
+.side-menu-element {
+    border-bottom: solid 1px;
+    border-bottom-color: black;
+}
+
+.category-label{
+    margin-left: 0;
+    width: 100%;
+    display: block;
+    padding: 10px;
+}
+
+.side-menu-sub-element {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    background-color:lightgray;
+    padding-left: 20px;
+    color: black;
+}
+
+.side-menu-sub-element:hover{
+    background-color: darkcyan;   
+}
+
+/*Side Menu*/
+
+/*Main Content*/
+
+.main-content {
+    display: flex;
+    flex: 5;
+    flex-flow: column;
+    background-color:beige;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.form-fields {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 300px;
+    overflow-y: auto;
+    margin-top: 40px;
+    margin: 0 auto;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.field-container{
+    display: flex;
+    flex-flow: row;
+}
+
+/*Main Content*/
+
